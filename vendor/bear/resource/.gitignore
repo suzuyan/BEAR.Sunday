@@ -1,0 +1,7 @@
+.idea
+templates_c
+vendor
+tmp
+*.log
+build
+cache.properties

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BEAR.Package.Apps" tests="35" assertions="42" failures="0" errors="0" time="2.710746">
+    <testsuite name="BEAR\Package\tests\Dev\ApplicationReflectorTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Dev/ApplicationReflectorTest.php" namespace="BEAR\Package\tests\Dev" fullPackage="BEAR.Package.tests.Dev" tests="6" assertions="6" failures="0" errors="0" time="2.081808">
+      <testcase name="testNew" class="BEAR\Package\tests\Dev\ApplicationReflectorTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Dev/ApplicationReflectorTest.php" line="25" assertions="1" time="0.587760"/>
+      <testcase name="resources" class="BEAR\Package\tests\Dev\ApplicationReflectorTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Dev/ApplicationReflectorTest.php" line="34" assertions="1" time="1.492686"/>
+      <testcase name="testGetResources" class="BEAR\Package\tests\Dev\ApplicationReflectorTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Dev/ApplicationReflectorTest.php" line="47" assertions="1" time="0.000984"/>
+      <testcase name="testGetResourcesClassName" class="BEAR\Package\tests\Dev\ApplicationReflectorTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Dev/ApplicationReflectorTest.php" line="57" assertions="1" time="0.000154"/>
+      <testcase name="testGetResourcesOptions" class="BEAR\Package\tests\Dev\ApplicationReflectorTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Dev/ApplicationReflectorTest.php" line="67" assertions="1" time="0.000113"/>
+      <testcase name="testGetResourcesLinks" class="BEAR\Package\tests\Dev\ApplicationReflectorTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Dev/ApplicationReflectorTest.php" line="84" assertions="1" time="0.000111"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\Provide\Application\ApplicationFactoryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Application/ApplicationFactoryTest.php" namespace="BEAR\Package\Provide\Application" fullPackage="BEAR.Package.Provide.Application" tests="3" assertions="3" failures="0" errors="0" time="0.402861">
+      <testcase name="testNew" class="BEAR\Package\Provide\Application\ApplicationFactoryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Application/ApplicationFactoryTest.php" line="50" assertions="1" time="0.000759"/>
+      <testcase name="testNewInstance" class="BEAR\Package\Provide\Application\ApplicationFactoryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Application/ApplicationFactoryTest.php" line="58" assertions="1" time="0.004856"/>
+      <testcase name="testNewInstanceSandboxApp" class="BEAR\Package\Provide\Application\ApplicationFactoryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Application/ApplicationFactoryTest.php" line="67" assertions="1" time="0.397246"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Module\Database\Dbal\DoctrineDbalAdapterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/DoctrineDbalAdapterTest.php" namespace="BEAR\Package\tests\Module\Database\Dbal" fullPackage="BEAR.Package.tests.Module.Database.Dbal" tests="3" assertions="5" failures="0" errors="0" time="0.141186">
+      <testcase name="testNew" class="BEAR\Package\tests\Module\Database\Dbal\DoctrineDbalAdapterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/DoctrineDbalAdapterTest.php" line="56" assertions="1" time="0.112783"/>
+      <testcase name="testCount" class="BEAR\Package\tests\Module\Database\Dbal\DoctrineDbalAdapterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/DoctrineDbalAdapterTest.php" line="61" assertions="1" time="0.016934"/>
+      <testcase name="testGetSlice" class="BEAR\Package\tests\Module\Database\Dbal\DoctrineDbalAdapterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/DoctrineDbalAdapterTest.php" line="67" assertions="3" time="0.011469"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Module\Database\Dbal\PagerTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/PagerTest.php" namespace="BEAR\Package\tests\Module\Database\Dbal" fullPackage="BEAR.Package.tests.Module.Database.Dbal" tests="1" assertions="1" failures="0" errors="0" time="0.012024">
+      <testcase name="testGetPagerQuery" class="BEAR\Package\tests\Module\Database\Dbal\PagerTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/PagerTest.php" line="57" assertions="1" time="0.012024"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Module\Database\Dbal\PagingQueryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/PagingQueryTest.php" namespace="BEAR\Package\tests\Module\Database\Dbal" fullPackage="BEAR.Package.tests.Module.Database.Dbal" tests="4" assertions="6" failures="0" errors="0" time="0.035818">
+      <testcase name="testNew" class="BEAR\Package\tests\Module\Database\Dbal\PagingQueryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/PagingQueryTest.php" line="54" assertions="1" time="0.009102"/>
+      <testcase name="testCount" class="BEAR\Package\tests\Module\Database\Dbal\PagingQueryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/PagingQueryTest.php" line="59" assertions="1" time="0.009029"/>
+      <testcase name="testGetPagerSql" class="BEAR\Package\tests\Module\Database\Dbal\PagingQueryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/PagingQueryTest.php" line="65" assertions="1" time="0.007953"/>
+      <testcase name="testGetIterator" class="BEAR\Package\tests\Module\Database\Dbal\PagingQueryTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/Database/Dbal/PagingQueryTest.php" line="72" assertions="3" time="0.009734"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Module\ExceptionHandle\ExceptionHandlerTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/ExceptinHandle/ExceptionHandlerTest.php" namespace="BEAR\Package\tests\Module\ExceptionHandle" fullPackage="BEAR.Package.tests.Module.ExceptionHandle" tests="1" assertions="1" failures="0" errors="0" time="0.000188">
+      <testcase name="testNew" class="BEAR\Package\tests\Module\ExceptionHandle\ExceptionHandlerTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/ExceptinHandle/ExceptionHandlerTest.php" line="21" assertions="1" time="0.000188"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Module\ExceptionHandle\ScreenTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/ExceptinHandle/ScreenTest.php" namespace="BEAR\Package\tests\Module\ExceptionHandle" fullPackage="BEAR.Package.tests.Module.ExceptionHandle" tests="1" assertions="1" failures="0" errors="0" time="0.001306">
+      <testcase name="testNew" class="BEAR\Package\tests\Module\ExceptionHandle\ScreenTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Module/ExceptinHandle/ScreenTest.php" line="20" assertions="1" time="0.001306"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\Provide\ApplicationLogger\ApplicationLoggerTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ApplicationLogger/ApplicationLoggerTest.php" namespace="BEAR\Package\Provide\ApplicationLogger" fullPackage="BEAR.Package.Provide.ApplicationLogger" tests="1" assertions="1" failures="0" errors="0" time="0.000153">
+      <testcase name="testRegister" class="BEAR\Package\Provide\ApplicationLogger\ApplicationLoggerTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ApplicationLogger/ApplicationLoggerTest.php" line="34" assertions="1" time="0.000153"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Provide\ApplicationLogger\ResourceLog\Writer\FireTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ApplicationLogger/ResourceLog/Writer/FireTest.php" namespace="BEAR\Package\tests\Provide\ApplicationLogger\ResourceLog\Writer" fullPackage="BEAR.Package.tests.Provide.ApplicationLogger.ResourceLog.Writer" tests="1" assertions="1" failures="0" errors="0" time="0.002552">
+      <testcase name="testLog" class="BEAR\Package\tests\Provide\ApplicationLogger\ResourceLog\Writer\FireTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ApplicationLogger/ResourceLog/Writer/FireTest.php" line="29" assertions="1" time="0.002552"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Provide\ApplicationLogger\ResourceLog\Writer\NullTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ApplicationLogger/ResourceLog/Writer/NullTest.php" namespace="BEAR\Package\tests\Provide\ApplicationLogger\ResourceLog\Writer" fullPackage="BEAR.Package.tests.Provide.ApplicationLogger.ResourceLog.Writer" tests="1" assertions="2" failures="0" errors="0" time="0.000805">
+      <testcase name="testLog" class="BEAR\Package\tests\Provide\ApplicationLogger\ResourceLog\Writer\NullTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ApplicationLogger/ResourceLog/Writer/NullTest.php" line="28" assertions="2" time="0.000805"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Provide\ResourceView\JsonRendererTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ResourceView/JsonRendererTest.php" namespace="BEAR\Package\tests\Provide\ResourceView" fullPackage="BEAR.Package.tests.Provide.ResourceView" tests="1" assertions="1" failures="0" errors="0" time="0.000998">
+      <testcase name="testRender" class="BEAR\Package\tests\Provide\ResourceView\JsonRendererTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/ResourceView/JsonRendererTest.php" line="51" assertions="1" time="0.000998"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Provide\Router\RouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/RouterTest.php" namespace="BEAR\Package\tests\Provide\Router" fullPackage="BEAR.Package.tests.Provide.Router" tests="1" assertions="1" failures="0" errors="0" time="0.000128">
+      <testcase name="testNew" class="BEAR\Package\tests\Provide\Router\RouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/RouterTest.php" line="20" assertions="1" time="0.000128"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" namespace="BEAR\Package\tests\Provide\Router" fullPackage="BEAR.Package.tests.Provide.Router" tests="9" assertions="11" failures="0" errors="0" time="0.025988">
+      <testcase name="testNew" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="24" assertions="1" time="0.003639"/>
+      <testcase name="testSimpleMatch" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="29" assertions="2" time="0.016617"/>
+      <testcase name="testMethodTypes" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="39" assertions="1" time="0.001454"/>
+      <testcase name="testMethodOverride" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="46" assertions="2" time="0.000312"/>
+      <testcase name="testCorrectMethodNeeded" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="54" assertions="1" time="0.000997"/>
+      <testcase name="testParametersAreCorrect" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="63" assertions="1" time="0.001524"/>
+      <testcase name="testFallbackWhenNoRoutePresent" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="71" assertions="1" time="0.000269"/>
+      <testcase name="testAdditionalParameters" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="77" assertions="1" time="0.000592"/>
+      <testcase name="testSettingArguments" class="BEAR\Package\tests\Provide\Router\SymfonyRouterTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/Router/SymfonyRouterTest.php" line="91" assertions="1" time="0.000585"/>
+    </testsuite>
+    <testsuite name="BEAR\Package\tests\Provide\WebResponse\HttpFoundationTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/WebResponse/HttpFoundationTest.php" namespace="BEAR\Package\tests\Provide\WebResponse" fullPackage="BEAR.Package.tests.Provide.WebResponse" tests="2" assertions="2" failures="0" errors="0" time="0.004930">
+      <testcase name="testNew" class="BEAR\Package\tests\Provide\WebResponse\HttpFoundationTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/WebResponse/HttpFoundationTest.php" line="33" assertions="1" time="0.000134"/>
+      <testcase name="testOutput" class="BEAR\Package\tests\Provide\WebResponse\HttpFoundationTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/tests/Provide/WebResponse/HttpFoundationTest.php" line="38" assertions="1" time="0.004796"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
