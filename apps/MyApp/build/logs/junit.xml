@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="BEAR application" tests="5" assertions="5" failures="0" errors="0" time="0.494096">
-    <testsuite name="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" namespace="MyApp\Resource\Page" fullPackage="MyApp.Resource.Page" tests="5" assertions="5" failures="0" errors="0" time="0.494096">
-      <testcase name="resource" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="27" assertions="1" time="0.136109"/>
-      <testcase name="testBody" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="39" assertions="1" time="0.067828"/>
-      <testcase name="testRenderable" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="49" assertions="1" time="0.108730"/>
-      <testcase name="testRenderedHtml" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="60" assertions="1" time="0.070812"/>
-      <testcase name="testOnGet" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="69" assertions="1" time="0.110617"/>
+  <testsuite name="BEAR application" tests="5" assertions="5" failures="0" errors="0" time="0.465636">
+    <testsuite name="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" namespace="MyApp\Resource\Page" fullPackage="MyApp.Resource.Page" tests="5" assertions="5" failures="0" errors="0" time="0.465636">
+      <testcase name="resource" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="27" assertions="1" time="0.119969"/>
+      <testcase name="testBody" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="39" assertions="1" time="0.071523"/>
+      <testcase name="testRenderable" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="49" assertions="1" time="0.096863"/>
+      <testcase name="testRenderedHtml" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="60" assertions="1" time="0.070331"/>
+      <testcase name="testOnGet" class="MyApp\Resource\Page\IndexTest" file="/Users/shuhei/Documents/web/BEAR.Sunday2/apps/MyApp/tests/Resource/Page/IndexTest.php" line="69" assertions="1" time="0.106950"/>
     </testsuite>
   </testsuite>
 </testsuites>

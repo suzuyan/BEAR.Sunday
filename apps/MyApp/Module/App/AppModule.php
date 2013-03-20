@@ -49,5 +49,12 @@ class AppModule extends AbstractModule
 
         // dependency binding for application
         $this->bind('BEAR\Sunday\Extension\Application\AppInterface')->to('MyApp\App');
+        $this->bind()->annotatedWith("login_timeout_seconds")->toInstance(10);
+        $logger = $this->requestInjection('Myapp\Interceptor\Logger');
+        $this->bindInterceptor(
+            $this->matcher->subclassesOf('BEAR\Resource\Object'),
+            $this->matcher->startWith('on'),
+            [$logger]
+        );
     }
 }
